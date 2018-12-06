@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e66786e-c49f-41a8-a00a-6ceda35f1073" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Task2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/partI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Task2/partII.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Task3/solution.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,19 +16,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Task2/partI.js">
+        <entry file="file://$PROJECT_DIR$/Task3/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="92">
+              <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Task2/partII.js">
+        <entry file="file://$PROJECT_DIR$/Task3/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-402">
-              <caret selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="813">
+              <caret line="1330" column="22" selection-start-line="1330" selection-start-column="22" selection-end-line="1330" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -60,6 +59,10 @@
         <option value="$PROJECT_DIR$/Task2/playground.js" />
         <option value="$PROJECT_DIR$/Task2/partII.js" />
         <option value="$PROJECT_DIR$/Task2/partI.js" />
+        <option value="$PROJECT_DIR$/Task3/partII.js" />
+        <option value="$PROJECT_DIR$/Task3/input.txt" />
+        <option value="$PROJECT_DIR$/Task3/README.md" />
+        <option value="$PROJECT_DIR$/Task3/partI.js" />
       </list>
     </option>
   </component>
@@ -94,12 +97,7 @@
             <path>
               <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
-              <item name="Task1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent-of-code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent-of-code" type="462c0819:PsiDirectoryNode" />
-              <item name="Task2" type="462c0819:PsiDirectoryNode" />
+              <item name="Task3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -127,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.partI.js">
+  <component name="RunManager" selected="Node.js.solution.js">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="advent-of-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,26 +154,7 @@
     <configuration name="playground.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Task2/playground.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="advent-of-code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\ProgramData\Anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Task1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Adam\Projects\advent-of-code\Task1\partI.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+    <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Task3/solution.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="partII" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -224,6 +203,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.solution.js" />
         <item itemvalue="Node.js.partI.js" />
         <item itemvalue="Node.js.playground.js" />
       </list>
@@ -240,12 +220,28 @@
       <option name="presentableId" value="Default" />
       <updated>1543675230350</updated>
       <workItem from="1543675233074" duration="6094000" />
-      <workItem from="1544105499577" duration="11756000" />
+      <workItem from="1544105499577" duration="11973000" />
+      <workItem from="1544122867523" duration="7605000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 2">
+      <created>1544120478534</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544120478534</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task 2">
+      <created>1544120510578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544120510578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17850000" />
+    <option name="totallyTimeSpent" value="25672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -276,6 +272,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Task1/dsc.md" />
@@ -326,15 +326,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Task2/partII.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-402">
-          <caret selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="391">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/partII.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="230">
+            <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="1330" column="22" selection-start-line="1330" selection-start-column="22" selection-end-line="1330" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Task2/partI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state>
+          <caret selection-end-line="2" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Task3/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -133,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.soulution.js">
+  <component name="RunManager" selected="Node.js.solution.js">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="advent-of-code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,7 +165,7 @@
     <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Task3/solution.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="soulution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Task4/soulution.js" working-dir="$PROJECT_DIR$">
+    <configuration name="solution.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Task4/solution.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="partII" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -192,7 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.soulution.js" />
+        <item itemvalue="Node.js.solution.js" />
         <item itemvalue="Node.js.solution.js" />
         <item itemvalue="Node.js.partI.js" />
         <item itemvalue="Node.js.playground.js" />

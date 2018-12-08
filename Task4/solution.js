@@ -28,15 +28,17 @@ inputs.forEach(value => {
         fallAsleep = value.date;
     } else if (value.desc.match('wakes')) {
         wakeUp = value.date;
-        let sleepTime = (wakeUp - fallAsleep) / 1000 / 60;
+
         if (!guardsAsleepMinutes.has(currentGuardId)) {
             guardsAsleepMinutes.set(currentGuardId, new Array(60).fill(0));
         }
         let asleepMinutes = guardsAsleepMinutes.get(currentGuardId);
-        for (let i = fallAsleep.getMinutes(); i<wakeUp.getMinutes(); i++){
+        for (let i = fallAsleep.getMinutes(); i < wakeUp.getMinutes(); i++) {
             asleepMinutes[i] = asleepMinutes[i] + 1;
         }
-        if (guardsAsleepTime.has(currentGuardId)){
+
+        let sleepTime = (wakeUp - fallAsleep) / 1000 / 60;
+        if (guardsAsleepTime.has(currentGuardId)) {
             sleepTime = guardsAsleepTime.get(currentGuardId) + sleepTime
         }
         guardsAsleepTime.set(currentGuardId, sleepTime)
@@ -48,8 +50,8 @@ let mostSleepyGuard = Array.from(guardsAsleepTime.keys()).reduce((previousValue,
 
 let mostOftenSleepMinute = 0;
 
-for (let i = 1;i< 60; i++){
-    if (guardsAsleepMinutes.get(mostSleepyGuard)[i] > guardsAsleepMinutes.get(mostSleepyGuard)[mostOftenSleepMinute]){
+for (let i = 1; i < 60; i++) {
+    if (guardsAsleepMinutes.get(mostSleepyGuard)[i] > guardsAsleepMinutes.get(mostSleepyGuard)[mostOftenSleepMinute]) {
         mostOftenSleepMinute = i;
     }
 }
@@ -60,8 +62,8 @@ console.log('Part one result: ' + mostSleepyGuard * mostOftenSleepMinute);
 mostOftenSleepMinute = 0;
 let mostOftenSleepMinuteGuardId = mostSleepyGuard;
 Array.from(guardsAsleepMinutes.keys()).forEach(guardId => {
-    for (let i = 0;i< 60; i++){
-        if (guardsAsleepMinutes.get(guardId)[i] > guardsAsleepMinutes.get(mostOftenSleepMinuteGuardId)[mostOftenSleepMinute]){
+    for (let i = 0; i < 60; i++) {
+        if (guardsAsleepMinutes.get(guardId)[i] > guardsAsleepMinutes.get(mostOftenSleepMinuteGuardId)[mostOftenSleepMinute]) {
             mostOftenSleepMinute = i;
             mostOftenSleepMinuteGuardId = guardId;
         }
